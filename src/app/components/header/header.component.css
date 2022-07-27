@@ -1,0 +1,13 @@
+nav{
+    background-color:#f6f6f6;
+}
+nav li a{
+    color: #302CA2;
+    font-size:16px;
+    padding-left: 35px;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color:#302CA2 !important;
+    font-weight: bold;
+    background-color:#EEEEF8 ;
+}
