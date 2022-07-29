@@ -8,6 +8,7 @@ import { PreheaderComponent } from './components/preheader/preheader.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { ProductsComponent } from './components/products/products.component';
 import { ProductCardComponent } from './components/product-card/product-card.component';
+import { OfferButtonComponent } from './components/offer-button/offer-button.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ProductCardComponent } from './components/product-card/product-card.com
     PreheaderComponent,
     HeroComponent,
     ProductsComponent,
-    ProductCardComponent
+    ProductCardComponent,
+    OfferButtonComponent
   ],
   imports: [
     BrowserModule,
