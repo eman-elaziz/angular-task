@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { PreheaderComponent } from './components/preheader/preheader.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { ProductsComponent } from './components/products/products.component';
+import { ProductCardComponent } from './components/product-card/product-card.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ProductsComponent } from './components/products/products.component';
     HeaderComponent,
     PreheaderComponent,
     HeroComponent,
-    ProductsComponent
+    ProductsComponent,
+    ProductCardComponent
   ],
   imports: [
     BrowserModule,
