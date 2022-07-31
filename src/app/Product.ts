@@ -6,6 +6,7 @@ export interface Product{
     priceAfterSale:string;
     rate:any;
     image:string;
+    lastView:string;
 
 
 

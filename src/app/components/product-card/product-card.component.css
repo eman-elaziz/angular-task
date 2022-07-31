@@ -5,7 +5,8 @@
     position: relative;
 }
 .card{
-    border:none !important
+    border:none !important;
+  position: unset;
 }
 .card-title h5{
     font-size: clamp(16px,1.5vw,18px);
@@ -33,7 +34,7 @@
     color: white;
 }
 .add-compare{
- background-color: #23104E;   
+ background-color: #23104E;
  color: white;
  position: absolute;
  top:-20px;
@@ -42,4 +43,20 @@
 }
 .compare-arrow:hover .add-compare{
     display: block;
+}
+/*.still-bottom{*/
+/*  position: absolute;*/
+/*  bottom: 10px;*/
+/*}*/
+.card-body{
+  min-height: 136px !important;
+}
+.tooltip-arrow,
+/*.compare-arrow + .tooltip > .tooltip-inner {background-color: #f00;}*/
+.tooltip.bs-tooltip-top .arrow:before {
+ background-color: #00cc00 !important;
+}
+.tooltip.top .tooltip-inner{
+  background-color: red !important;
+  color: #EEEEF8 !important;
 }
