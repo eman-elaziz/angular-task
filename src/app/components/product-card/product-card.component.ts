@@ -8,8 +8,16 @@ import { Product } from 'src/app/Product';
 })
 export class ProductCardComponent implements OnInit {
   @Input() product: any;
-  constructor() { }
 
+  constructor() { }
+  createRange(rate:number){
+    let items: number[] = [];
+    for(let i = 1; i <= rate; i++){
+      items.push(i);
+    }
+    return items;
+    return new Array(rate);
+  }
   ngOnInit(): void {
 
   }

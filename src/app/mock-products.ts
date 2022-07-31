@@ -7,7 +7,7 @@ export const PRODUCTS : Product[]=[
         offer:true,
         price:"150 ج . م",
         priceAfterSale:"90 ج . م",
-        rate:"2",
+        rate:2,
         image:"",
       lastView:""
 
@@ -18,7 +18,7 @@ export const PRODUCTS : Product[]=[
         offer:false,
         price:" ",
         priceAfterSale:"90 ج . م",
-        rate:"3",
+        rate:2,
         image:"",
       lastView:""
 
@@ -29,7 +29,7 @@ export const PRODUCTS : Product[]=[
         offer:false,
         price:"150 ج . م",
         priceAfterSale:"90 ج . م",
-        rate:"4",
+      rate:3,
         image:"",
       lastView:""
 
@@ -40,7 +40,7 @@ export const PRODUCTS : Product[]=[
         offer:false,
         price:"200 ج . م",
         priceAfterSale:"20 ج . م",
-        rate:"2",
+      rate:5,
         image:"",
       lastView:""
 

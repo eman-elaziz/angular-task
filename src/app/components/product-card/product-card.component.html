@@ -5,7 +5,12 @@
       <div><img src="../../../assets/images/pro1.png" class="card-img-top mt-3" alt="...">
         <div class="card-body pe-2 ps-1  ">
           <div><h5 class="card-title"> {{product.title}}</h5>
-<!--            <img src="../../../assets/images/Star.svg" *ngFor="let i of createRang(product.rate); " let currentElementIndex=index+1"/>-->
+
+
+                <img src="../../../assets/images/Star.svg" *ngFor="let i of createRange(product.rate)"/>
+            <img src="../../../assets/images/Star-copy.svg" *ngFor="let i of createRange(5-product.rate)"/>
+<!--            <img src="../../../assets/images/Star.svg"/>-->
+
             <p class="card-text price mb-0">{{product.price}}</p>
             <p class="card-text">{{product.priceAfterSale}}</p>
           </div>
