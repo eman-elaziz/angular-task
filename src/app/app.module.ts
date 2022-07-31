@@ -9,6 +9,7 @@ import { HeroComponent } from './components/hero/hero.component';
 import { ProductsComponent } from './components/products/products.component';
 import { ProductCardComponent } from './components/product-card/product-card.component';
 import { OfferButtonComponent } from './components/offer-button/offer-button.component';
+import { LastShowCardComponent } from './components/last-show-card/last-show-card.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { OfferButtonComponent } from './components/offer-button/offer-button.com
     HeroComponent,
     ProductsComponent,
     ProductCardComponent,
-    OfferButtonComponent
+    OfferButtonComponent,
+    LastShowCardComponent
   ],
   imports: [
     BrowserModule,

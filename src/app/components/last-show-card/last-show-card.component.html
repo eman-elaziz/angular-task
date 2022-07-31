@@ -1,0 +1,28 @@
+<div class="row mb-3 last-show py-2 gx-2">
+    <div class="col-lg-5 position-relative">
+        <div class="h-100 d-flex align-items-center"><img src={{product.image}} class="w-100 "/>
+        </div>
+<div class="detiles"><app-offer-button [color]="product. offer ? '#26A37C' : '#23104E'" [text]="product. offer ? 'عرض' : 'جديد'"></app-offer-button></div>
+
+    </div>
+    <div class="col-lg-7">
+        <div class="  ">
+            <div><h5 class="card-title"> {{product.title}}</h5>
+  
+              <p class="card-text price mb-0">{{product.price}}</p>
+              <p class="card-text">{{product.priceAfterSale}}</p>
+            </div>
+        </div>
+            <div class="still-bottom ">
+              <a href="#" class="btn add-cart"><i class="fa-solid fa-cart-plus ps-2 ps-xxl-0"></i></a>
+              <a href="#" class=""> <img src="../../../assets/images/share.svg"/></a>
+              <a href="#" class=""><img src="../../../assets/images/favorite.svg"/></a>
+            </div>
+  
+  <a href="#" class="pe-2 compare-arrow" data-bs-toggle="tooltip" data-bs-placement="top" title="اضف للمقارنة" ><img src="../../../assets/images/compare.svg"/></a>
+  <!--<a href="#" class="btn add-compare " > اضف للمقارنة</a>-->
+  
+  
+    </div>
+    
+</div>

@@ -41,15 +41,13 @@
  right:20px;
  display: none;
 }
-.compare-arrow:hover .add-compare{
-    display: block;
-}
+
 /*.still-bottom{*/
 /*  position: absolute;*/
 /*  bottom: 10px;*/
 /*}*/
 .card-body{
-  min-height: 136px !important;
+  min-height: 160px !important;
 }
 .tooltip-arrow,
 /*.compare-arrow + .tooltip > .tooltip-inner {background-color: #f00;}*/
