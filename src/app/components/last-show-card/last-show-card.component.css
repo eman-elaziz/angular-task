@@ -1,0 +1,25 @@
+.compare-arrow{
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+.detiles{
+    border-radius:16px ;
+    position: absolute;
+    top:10px;
+    left:10px;
+    color: white;
+}
+
+.card-body{
+    position: relative !important;
+}
+.last-show{
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+.price{
+    opacity: .7;
+    text-decoration:line-through;
+}

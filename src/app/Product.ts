@@ -7,6 +7,7 @@ export interface Product{
     rate:any;
     image:string;
     lastView:string;
+    lastShow:boolean;
 
 
 
