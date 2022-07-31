@@ -1,0 +1,13 @@
+.link{
+   color: #302CA2;
+   border: 1px solid  #302CA2
+}
+.products{
+    background-color: #F6F6F6;
+}
+.h4{
+    color:032326;
+}
+.parag2{
+    font-size:clamp(16px,1.5vw,18px) ;
+}

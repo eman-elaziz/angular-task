@@ -1,0 +1,62 @@
+.pro-card{
+    background-color: white;
+    border-radius: 10px;
+    height: 100%;
+    position: relative;
+}
+.card{
+    border:none !important;
+  position: unset;
+}
+.card-title h5{
+    font-size: clamp(16px,1.5vw,18px);
+    font-weight: 400;
+}
+.add-cart{
+    background-color: #302CA2;
+    color: white;
+}
+.price{
+    opacity: .7;
+    text-decoration:line-through;
+}
+.compare-arrow{
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+.detiles{
+    border-radius:16px ;
+    /* background-color: #26A37C; */
+    position: absolute;
+    top:10px;
+    left:10px;
+    color: white;
+}
+.add-compare{
+ background-color: #23104E;
+ color: white;
+ position: absolute;
+ top:-20px;
+ right:20px;
+ display: none;
+}
+.compare-arrow:hover .add-compare{
+    display: block;
+}
+/*.still-bottom{*/
+/*  position: absolute;*/
+/*  bottom: 10px;*/
+/*}*/
+.card-body{
+  min-height: 136px !important;
+}
+.tooltip-arrow,
+/*.compare-arrow + .tooltip > .tooltip-inner {background-color: #f00;}*/
+.tooltip.bs-tooltip-top .arrow:before {
+ background-color: #00cc00 !important;
+}
+.tooltip.top .tooltip-inner{
+  background-color: red !important;
+  color: #EEEEF8 !important;
+}

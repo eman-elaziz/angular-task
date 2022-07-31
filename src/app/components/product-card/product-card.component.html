@@ -1,0 +1,31 @@
+
+
+<section class="pro-card position-relative over-flow-auto w-100 h-100 ">
+    <div class="card " >
+      <div><img src="../../../assets/images/pro1.png" class="card-img-top mt-3" alt="...">
+        <div class="card-body pe-2 ps-1  ">
+          <div><h5 class="card-title"> {{product.title}}</h5>
+
+
+                <img src="../../../assets/images/Star.svg" *ngFor="let i of createRange(product.rate)"/>
+            <img src="../../../assets/images/Star-copy.svg" *ngFor="let i of createRange(5-product.rate)"/>
+<!--            <img src="../../../assets/images/Star.svg"/>-->
+
+            <p class="card-text price mb-0">{{product.price}}</p>
+            <p class="card-text">{{product.priceAfterSale}}</p>
+          </div>
+      </div>
+          <div class="still-bottom pb-3 pe-2">
+            <a href="#" class="btn add-cart"><i class="fa-solid fa-cart-plus ps-2 ps-xxl-0"></i>اضف للسله </a>
+            <a href="#" class="pe-2"> <img src="../../../assets/images/share.svg"/></a>
+            <a href="#" class="pe-2"><img src="../../../assets/images/favorite.svg"/></a>
+          </div>
+
+<a href="#" class="pe-2 compare-arrow" data-bs-toggle="tooltip" data-bs-placement="top" title="اضف للمقارنة" ><img src="../../../assets/images/compare.svg"/></a>
+<div class="detiles"><app-offer-button [color]="product. offer ? '#26A37C' : '#23104E'" [text]="product. offer ? 'عرض' : 'جديد'"></app-offer-button></div>
+<!--<a href="#" class="btn add-compare " > اضف للمقارنة</a>-->
+
+
+        </div>
+      </div>
+</section>
