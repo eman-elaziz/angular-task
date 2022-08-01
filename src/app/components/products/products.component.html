@@ -2,10 +2,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 order-md-1 order-2 ">
-                <p class="parag2">منتجات تصفحتها مؤخرا</p>
-                <div class="row pt-2 ">
-                    <div class="col-12" *ngFor="let product of products">
-                     <app-last-show-card [product]="product" *ngIf="product.lastShow"></app-last-show-card> 
+                <p class="parag2 mt-5 mt-md-0">منتجات تصفحتها مؤخرا</p>
+                <div class="row pt-2 mt-5 mt-xl-0 mt-md-0 mt-lg-5 ">
+                    <div class="col-12" *ngFor="let product of products |slice:0:3">
+                     <app-last-show-card [product]="product" ></app-last-show-card> 
 
                     </div>
                 </div>
@@ -20,9 +20,9 @@
                     <div class="col-lg-2 col-sm-4">  <a href="#" class="btn link w-100">عرض الكل</a></div>
                 </div>
                 <div class="row ">
-                    <div class="col-md-6  col-xl-4 col-xxl-3 mt-3"   *ngFor="let product of products" >
+                    <div class="col-md-6  col-xl-4 col-xxl-3 mt-3"   *ngFor="let product of products | slice:3:products.length" >
                         
-                        <app-product-card [product]="product" *ngIf="product.lastShow === false"></app-product-card>
+                        <app-product-card [product]="product" ></app-product-card>
                     </div>
 
                 </div>
