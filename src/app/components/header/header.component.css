@@ -12,5 +12,5 @@ nav li a{
     background-color:#EEEEF8 ;
 }
 .navbar-nav .dropdown-menu{
-    left:60%;
+    width:7vw !important
 }
