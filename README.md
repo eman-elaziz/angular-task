@@ -12,7 +12,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## documentation
 
-1. finished ui of task by divided into component and using bootstrap5 to make it responsive of all view ports
+1. finished ui of task by divided into components and using bootstrap5 to make it responsive of all view ports
 
 2. created the mock-products file to create array of products to retrieve products list from the array
 
