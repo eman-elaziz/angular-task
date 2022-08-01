@@ -1,4 +1,4 @@
-import {Product } from './Product'
+import {Product } from './Product.interface'
 
 // note : this array should be arrange  depend on date of last view from back end
 export const PRODUCTS : Product[]=[

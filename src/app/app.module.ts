@@ -6,10 +6,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { PreheaderComponent } from './components/preheader/preheader.component';
 import { HeroComponent } from './components/hero/hero.component';
-import { ProductsComponent } from './components/products/products.component';
-import { ProductCardComponent } from './components/product-card/product-card.component';
-import { OfferButtonComponent } from './components/offer-button/offer-button.component';
-import { LastShowCardComponent } from './components/last-show-card/last-show-card.component';
+import { ProductsComponent } from './components/products-component/products/products.component';
+import { ProductCardComponent } from './components/products-component/product-card/product-card.component';
+import { OfferButtonComponent } from './components/products-component/offer-button/offer-button.component';
+import { LastShowCardComponent } from './components/products-component/last-show-card/last-show-card.component';
 
 @NgModule({
   declarations: [
