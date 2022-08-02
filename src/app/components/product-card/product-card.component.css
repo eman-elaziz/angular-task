@@ -51,8 +51,7 @@
 .card-body{
   min-height: 160px !important;
 }
-.tooltip-arrow,
-/*.compare-arrow + .tooltip > .tooltip-inner {background-color: #f00;}*/
+
 .tooltip.bs-tooltip-top .arrow:before {
  background-color: #00cc00 !important;
 }
