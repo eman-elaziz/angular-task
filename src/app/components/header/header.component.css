@@ -11,3 +11,6 @@ nav li a{
     font-weight: bold;
     background-color:#EEEEF8 ;
 }
+.navbar-nav .dropdown-menu{
+    width:7vw !important
+}
