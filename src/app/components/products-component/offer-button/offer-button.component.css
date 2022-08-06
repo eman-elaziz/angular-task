@@ -2,3 +2,7 @@ a{
   
     color:white
 }
+.custom{
+    border-radius: 16px;
+    padding: 5px 15px;
+}
