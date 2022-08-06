@@ -10,7 +10,8 @@ import { ProductsComponent } from './components/products-component/products/prod
 import { ProductCardComponent } from './components/products-component/product-card/product-card.component';
 import { OfferButtonComponent } from './components/products-component/offer-button/offer-button.component';
 import { LastShowCardComponent } from './components/products-component/last-show-card/last-show-card.component';
-
+import { ProductService} from './services/product.service'
+import {HttpClientModule} from '@angular/common/http' 
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,9 +25,10 @@ import { LastShowCardComponent } from './components/products-component/last-show
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
