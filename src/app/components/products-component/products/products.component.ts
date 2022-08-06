@@ -7,11 +7,12 @@ import { ProductService } from 'src/app/services/product.service';
   styleUrls: ['./products.component.css']
 })
 export class ProductsComponent implements OnInit {
-  products :Product[]=[];
+ public products :Product[] =[];
   constructor(private _productService: ProductService) { }
 
   ngOnInit(): void {
-    this.products=this._productService.getProduct()
+    this._productService.getProduct().subscribe(data=>this.products=data)
+    console.log(this.products)
   }
 
 }
